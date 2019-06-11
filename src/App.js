@@ -58,7 +58,7 @@ class App extends React.Component {
       <Layout className="layout">
         <Header theme="light" style={{ backgroundColor: "#000000" }}>
           <div className="logo">
-            <img src="/statgram.png" />
+            <img src="/statgram.png" /> <h3>Analytics</h3>
           </div>
           <Menu
             theme="light"
@@ -76,7 +76,7 @@ class App extends React.Component {
           </Menu>
         </Header>
         <Content className="contentContainer">
-          <div style={{ background: "#fff", padding: 24, minHeight: "100%" }}>
+          <div style={{ background: "#000000", padding: 24, minHeight: "100%" }}>
             <div className="mobileSearchInput">
               <SearchInput
                 placeholder="search"
