@@ -58,7 +58,7 @@ class App extends React.Component {
       <Layout className="layout">
         <Header theme="light" style={{ backgroundColor: "#000000" }}>
           <div className="logo">
-            <img src="/statgram.png" /> <h3>Analytics</h3>
+            <img src="/statgram.png" />
           </div>
           <Menu
             theme="light"
