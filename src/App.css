@@ -1,0 +1,45 @@
+.logo {
+  width: 120px;
+  height: 31px;
+  /* background: rgba(255, 255, 255, 0.2); */
+  margin: 16px 24px 16px 0;
+  float: left;
+  display: flex;
+  align-items: center;
+  font-family: cursive;
+}
+
+.logo img {
+  max-width: 100%;
+}
+
+.logo h3 {
+  margin: 0;
+  font-weight: bolder;
+  margin-left: 3px;
+}
+
+@media (min-width: 768px) {
+  .contentContainer {
+    padding: 50px;
+  }
+  .responsiveBr {
+    display: none;
+  }
+  .mobileSearchInput {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .userSelect, .addVisualization {
+    width: 100%;
+    display: block !important;
+  }
+  .headerSearchInput {
+    display: none !important;
+  }
+  .mobileSearchInput {
+    margin-bottom: 20px;
+  }
+}
