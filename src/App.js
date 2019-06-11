@@ -56,12 +56,12 @@ class App extends React.Component {
   render() {
     return (
       <Layout className="layout">
-        <Header theme="light" style={{ backgroundColor: "#000000" }}>
+        <Header theme="dark" style={{ backgroundColor: "#000000" }}>
           <div className="logo">
             <img src="/statgram.png" /> <h3>Analytics</h3>
           </div>
           <Menu
-            theme="light"
+            theme="dark"
             mode="horizontal"
             defaultSelectedKeys={["2"]}
             style={{ lineHeight: "64px" }}
